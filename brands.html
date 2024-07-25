@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analytica</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/car-logo.png"
+      type="image/svg+xml"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <div class="overlay" data-overlay></div>
+
+        <div class="logo-container">
+          <a href="index.html" class="logo">
+            <img src="./assets/images/car-logo.png" alt="Ridex logo" />
+          </a>
+          <a href="index.html"><p class="logo-text" style="font-size: 40px;">Analytica</p></a>
+        </div>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li>
+              <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+            </li>
+            <li>
+              <a href="brands.html" class="navbar-link" data-nav-link>Brands</a>
+            </li>
+            
+            <li>
+              <a href="about.html" class="navbar-link" data-nav-link
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a href="contact.php" class="navbar-link" data-nav-link
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <!-- <a href="./registation/registration.php" class="btn" aria-labelledby="aria-label-txt">
+            <ion-icon name="car-outline"></ion-icon>
+
+            <span id="aria-label-txt">Sign up</span>
+          </a> -->
+
+          <a href="contact.php" class="btn user-btn" aria-label="Profile">
+            <ion-icon name="person-outline"></ion-icon>
+          </a>
+
+          <button
+            class="nav-toggle-btn"
+            data-nav-toggle-btn
+            aria-label="Toggle Menu"
+          >
+            <span class="one"></span>
+            <span class="two"></span>
+            <span class="three"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- 
+        - #FEATURED CAR
+      -->
+
+    <section class="section featured-car" id="featured-car">
+      <div class="container">
+        <div class="title-wrapper">
+          <h2 class="h2 section-title" style="margin-top: 50px">
+            Featured cars
+          </h2>
+        </div>
+
+        <ul class="featured-car-list">
+          <li>
+            <div class="featured-car-card">
+              <figure class="card-banner">
+                <img
+                  src="./assets/images/toyota01.jpg"
+                  alt="Toyota RAV4 2021"
+                  loading="lazy"
+                  width="440"
+                  height="300"
+                  class="w-100"
+                />
+              </figure>
+
+              <div class="card-content">
+                <div class="card-title-wrapper">
+                  <h3 class="h3 card-title">
+                    <a href="./brandsCards_Pages/Toyota.html">Toyota</a>
+                  </h3>
+                  <div class="card-price-wrapper">
+                   <a href="./brandsCards_Pages/Toyota.html">
+                    <button  class="btn">See Details</button>
+                  </a> 
+                    <!-- <p class="card-price"><strong>$440</strong> / month</p>
+  
+                    <button
+                      class="btn fav-btn"
+                      aria-label="Add to favourite list"
+                    >
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button> -->
+                  </div>
+                </div>
+
+                <ul class="card-list">
+                  <li class="card-list-item">
+                    <ion-icon name="people-outline"></ion-icon>
+
+                    <span class="card-item-text">4 People</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="flash-outline"></ion-icon>
+
+                    <span class="card-item-text">Hybrid</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="speedometer-outline"></ion-icon>
+
+                    <span class="card-item-text">6.1km / 1-litre</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                    <span class="card-item-text">Automatic</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="featured-car-card">
+              <figure class="card-banner">
+                <img
+                  src="./assets/images/bmw01.jpg"
+                  alt="BMW 3 Series 2019"
+                  loading="lazy"
+                  width="440"
+                  height="300"
+                  class="w-100"
+                />
+              </figure>
+
+              <div class="card-content">
+                <div class="card-title-wrapper">
+                  <h3 class="h3 card-title">
+                    <a href="./brandsCards_Pages/BMW.html">BMW</a>
+                  </h3>
+                  <div class="card-price-wrapper">
+                  <a href="./brandsCards_Pages/BMW.html">  <button class="btn">See Details</button></a>
+                    <!-- <p class="card-price"><strong>$350</strong> / month</p>
+
+                  <button
+                    class="btn fav-btn"
+                    aria-label="Add to favourite list"
+                  >
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button> -->
+                  </div>
+                </div>
+
+                <ul class="card-list">
+                  <li class="card-list-item">
+                    <ion-icon name="people-outline"></ion-icon>
+
+                    <span class="card-item-text">4 People</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="flash-outline"></ion-icon>
+
+                    <span class="card-item-text">Gasoline</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="speedometer-outline"></ion-icon>
+
+                    <span class="card-item-text">8.2km / 1-litre</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                    <span class="card-item-text">Automatic</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="featured-car-card">
+              <figure class="card-banner">
+                <img
+                  src="./assets/images/audi01.jpg"
+                  alt="Volkswagen T-Cross 2020"
+                  loading="lazy"
+                  width="440"
+                  height="300"
+                  class="w-100"
+                />
+              </figure>
+
+              <div class="card-content">
+                <div class="card-title-wrapper">
+                  <h3 class="h3 card-title">
+                    <a href="./brandsCards_Pages/Audi.html">Audi</a>
+                  </h3>
+                  <div class="card-price-wrapper">
+                    <a href="./brandsCards_Pages/Audi.html"><button class="btn">See Details</button></a>
+                    <!-- <p class="card-price"><strong>$400</strong> / month</p>
+
+                  <button
+                    class="btn fav-btn"
+                    aria-label="Add to favourite list"
+                  >
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button> -->
+                  </div>
+                  <!-- <data class="year" value="2020">2020</data> -->
+                </div>
+
+                <ul class="card-list">
+                  <li class="card-list-item">
+                    <ion-icon name="people-outline"></ion-icon>
+
+                    <span class="card-item-text">4 People</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="flash-outline"></ion-icon>
+
+                    <span class="card-item-text">Gasoline</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="speedometer-outline"></ion-icon>
+
+                    <span class="card-item-text">5.3km / 1-litre</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                    <span class="card-item-text">Automatic</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="featured-car-card">
+              <figure class="card-banner">
+                <img
+                  src="./assets/images/bentley01.jpg"
+                  alt="Cadillac Escalade 2020"
+                  loading="lazy"
+                  width="440"
+                  height="300"
+                  class="w-100"
+                />
+              </figure>
+
+              <div class="card-content">
+                <div class="card-title-wrapper">
+                  <h3 class="h3 card-title">
+                    <a href="./brandsCards_Pages/Bentley.html">Bentley</a>
+                  </h3>
+                  <div class="card-price-wrapper">
+                    <a href="./brandsCards_Pages/Bentley.html"><button class="btn">See Details</button></a>
+                    <!-- <p class="card-price"><strong>$620</strong> / month</p>
+
+                  <button
+                    class="btn fav-btn"
+                    aria-label="Add to favourite list"
+                  >
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button>
+
+                  <button class="btn">Rent now</button> -->
+                  </div>
+                  <!-- <data class="year" value="2020">2020</data> -->
+                </div>
+
+                <ul class="card-list">
+                  <li class="card-list-item">
+                    <ion-icon name="people-outline"></ion-icon>
+
+                    <span class="card-item-text">4 People</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="flash-outline"></ion-icon>
+
+                    <span class="card-item-text">Gasoline</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="speedometer-outline"></ion-icon>
+
+                    <span class="card-item-text">7.7km / 1-litre</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                    <span class="card-item-text">Automatic</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="featured-car-card">
+              <figure class="card-banner">
+                <img
+                  src="./assets/images/ferrari01.jpg"
+                  alt="BMW 4 Series GTI 2021"
+                  loading="lazy"
+                  width="440"
+                  height="300"
+                  class="w-100"
+                />
+              </figure>
+
+              <div class="card-content">
+                <div class="card-title-wrapper">
+                  <h3 class="h3 card-title">
+                    <a href="./brandsCards_Pages/Ferrari.html">Ferrari</a>
+                  </h3>
+                  <div class="card-price-wrapper">
+                    <!-- <p class="card-price"><strong>$530</strong> / month</p>
+
+                  <button
+                    class="btn fav-btn"
+                    aria-label="Add to favourite list"
+                  >
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button>
+
+                  <button class="btn">Rent now</button> -->
+                    <a href="./brandsCards_Pages/Ferrari.html"><button class="btn">See Details</button></a>
+                  </div>
+                  <!-- <data class="year" value="2021">2021</data> -->
+                </div>
+
+                <ul class="card-list">
+                  <li class="card-list-item">
+                    <ion-icon name="people-outline"></ion-icon>
+
+                    <span class="card-item-text">4 People</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="flash-outline"></ion-icon>
+
+                    <span class="card-item-text">Gasoline</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="speedometer-outline"></ion-icon>
+
+                    <span class="card-item-text">7.6km / 1-litre</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                    <span class="card-item-text">Automatic</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="featured-car-card">
+              <figure class="card-banner">
+                <img
+                  src="./assets/images/benz01.jpg"
+                  alt="BMW 4 Series 2019"
+                  loading="lazy"
+                  width="440"
+                  height="300"
+                  class="w-100"
+                />
+              </figure>
+
+              <div class="card-content">
+                <div class="card-title-wrapper">
+                  <h3 class="h3 card-title">
+                    <a href="./brandsCards_Pages/Mercedes.html">Mercedes-Benz</a>
+                  </h3>
+                  <div class="card-price-wrapper">
+                    <!-- <p class="card-price"><strong>$490</strong> / month</p>
+
+                  <button
+                    class="btn fav-btn"
+                    aria-label="Add to favourite list"
+                  >
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button>
+
+                  <button class="btn">Rent now</button> -->
+                    <a href="./brandsCards_Pages/Mercedes.html"><button class="btn">See Details</button></a>
+                  </div>
+                  <!-- <data class="year" value="2019">2019</data> -->
+                </div>
+
+                <ul class="card-list">
+                  <li class="card-list-item">
+                    <ion-icon name="people-outline"></ion-icon>
+
+                    <span class="card-item-text">4 People</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="flash-outline"></ion-icon>
+
+                    <span class="card-item-text">Gasoline</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="speedometer-outline"></ion-icon>
+
+                    <span class="card-item-text">7.2km / 1-litre</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                    <span class="card-item-text">Automatic</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="featured-car-card">
+              <figure class="card-banner">
+                <img
+                  src="./assets/images/gmc01.jpg"
+                  alt="BMW 4 Series 2019"
+                  loading="lazy"
+                  width="440"
+                  height="300"
+                  class="w-100"
+                />
+              </figure>
+
+              <div class="card-content">
+                <div class="card-title-wrapper">
+                  <h3 class="h3 card-title">
+                    <a href="./brandsCards_Pages/GMC.html">GMC</a>
+                  </h3>
+                  <div class="card-price-wrapper">
+                    <!-- <p class="card-price"><strong>$490</strong> / month</p>
+
+                  <button
+                    class="btn fav-btn"
+                    aria-label="Add to favourite list"
+                  >
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button>
+
+                  <button class="btn">Rent now</button> -->
+                   <a href="./brandsCards_Pages/GMC.html"> <button class="btn">See Details</button></a>
+                  </div>
+
+                  <!-- <data class="year" value="2019">2019</data> -->
+                </div>
+
+                <ul class="card-list">
+                  <li class="card-list-item">
+                    <ion-icon name="people-outline"></ion-icon>
+
+                    <span class="card-item-text">4 People</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="flash-outline"></ion-icon>
+
+                    <span class="card-item-text">Gasoline</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="speedometer-outline"></ion-icon>
+
+                    <span class="card-item-text">7.2km / 1-litre</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                    <span class="card-item-text">Automatic</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="featured-car-card">
+              <figure class="card-banner">
+                <img
+                  src="./assets/images/honda01.jpeg"
+                  alt="BMW 4 Series 2019"
+                  loading="lazy"
+                  width="440"
+                  height="300"
+                  class="w-100"
+                />
+              </figure>
+
+              <div class="card-content">
+                <div class="card-title-wrapper">
+                  <h3 class="h3 card-title">
+                    <a href="./brandsCards_Pages/Honda.html">Honda</a>
+                  </h3>
+                  <div class="card-price-wrapper">
+                    <!-- <p class="card-price"><strong>$490</strong> / month</p>
+
+                  <button
+                    class="btn fav-btn"
+                    aria-label="Add to favourite list"
+                  >
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button>
+
+                  <button class="btn">Rent now</button> -->
+                    <a href="./brandsCards_Pages/Honda.html"><button class="btn">See Details</button></a>
+                  </div>
+                  <!-- <data class="year" value="2019">2019</data> -->
+                </div>
+
+                <ul class="card-list">
+                  <li class="card-list-item">
+                    <ion-icon name="people-outline"></ion-icon>
+
+                    <span class="card-item-text">4 People</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="flash-outline"></ion-icon>
+
+                    <span class="card-item-text">Gasoline</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="speedometer-outline"></ion-icon>
+
+                    <span class="card-item-text">7.2km / 1-litre</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                    <span class="card-item-text">Automatic</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="featured-car-card">
+              <figure class="card-banner">
+                <img
+                  src="./assets/images/lamborghini01.jpeg"
+                  alt="BMW 4 Series 2019"
+                  loading="lazy"
+                  width="440"
+                  height="300"
+                  class="w-100"
+                />
+              </figure>
+
+              <div class="card-content">
+                <div class="card-title-wrapper">
+                  <h3 class="h3 card-title">
+                    <a href="./brandsCards_Pages/Lamborghnini.html">Lamborghini</a>
+                  </h3>
+                  <div class="card-price-wrapper">
+                    <!-- <p class="card-price"><strong>$490</strong> / month</p>
+
+                  <button
+                    class="btn fav-btn"
+                    aria-label="Add to favourite list"
+                  >
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button>
+
+                  <button class="btn">Rent now</button> -->
+                    <a href="./brandsCards_Pages/Lamborghnini.html"><button class="btn">See Details</button></a>
+                  </div>
+
+                  <!-- <data class="year" value="2019">2019</data> -->
+                </div>
+
+                <ul class="card-list">
+                  <li class="card-list-item">
+                    <ion-icon name="people-outline"></ion-icon>
+
+                    <span class="card-item-text">4 People</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="flash-outline"></ion-icon>
+
+                    <span class="card-item-text">Gasoline</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="speedometer-outline"></ion-icon>
+
+                    <span class="card-item-text">7.2km / 1-litre</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                    <span class="card-item-text">Automatic</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="featured-car-card">
+              <figure class="card-banner">
+                <img
+                  src="./assets/images/porsche01.jpeg"
+                  alt="BMW 4 Series 2019"
+                  loading="lazy"
+                  width="440"
+                  height="300"
+                  class="w-100"
+                />
+              </figure>
+
+              <div class="card-content">
+                <div class="card-title-wrapper">
+                  <h3 class="h3 card-title">
+                    <a href="./brandsCards_Pages/Porsche.html">Porsche</a>
+                  </h3>
+                  <div class="card-price-wrapper">
+                    <!-- <p class="card-price"><strong>$490</strong> / month</p>
+
+                  <button
+                    class="btn fav-btn"
+                    aria-label="Add to favourite list"
+                  >
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button>
+
+                  <button class="btn">Rent now</button> -->
+                    <a href="./brandsCards_Pages/Porsche.html"><button class="btn">See Details</button></a>
+                  </div>
+                  <!-- <data class="year" value="2019">2019</data> -->
+                </div>
+
+                <ul class="card-list">
+                  <li class="card-list-item">
+                    <ion-icon name="people-outline"></ion-icon>
+
+                    <span class="card-item-text">4 People</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="flash-outline"></ion-icon>
+
+                    <span class="card-item-text">Gasoline</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="speedometer-outline"></ion-icon>
+
+                    <span class="card-item-text">7.2km / 1-litre</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                    <span class="card-item-text">Automatic</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="featured-car-card">
+              <figure class="card-banner">
+                <img
+                  src="./assets/images/royce01.jpeg"
+                  alt="BMW 4 Series 2019"
+                  loading="lazy"
+                  width="440"
+                  height="300"
+                  class="w-100"
+                />
+              </figure>
+
+              <div class="card-content">
+                <div class="card-title-wrapper">
+                  <h3 class="h3 card-title">
+                    <a href="./brandsCards_Pages/RollsRoyc.html">Rolls-Royce</a>
+                  </h3>
+                  <div class="card-price-wrapper">
+                    <!-- <p class="card-price"><strong>$490</strong> / month</p>
+
+                  <button
+                    class="btn fav-btn"
+                    aria-label="Add to favourite list"
+                  >
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button>
+
+                  <button class="btn">Rent now</button> -->
+                    <a href="./brandsCards_Pages/RollsRoyc.html"><button class="btn">See Details</button></a>
+                  </div>
+                  <!-- <data class="year" value="2019">2019</data> -->
+                </div>
+
+                <ul class="card-list">
+                  <li class="card-list-item">
+                    <ion-icon name="people-outline"></ion-icon>
+
+                    <span class="card-item-text">4 People</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="flash-outline"></ion-icon>
+
+                    <span class="card-item-text">Gasoline</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="speedometer-outline"></ion-icon>
+
+                    <span class="card-item-text">7.2km / 1-litre</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                    <span class="card-item-text">Automatic</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="featured-car-card">
+              <figure class="card-banner">
+                <img
+                  src="./assets/images/tesla01.jpeg"
+                  alt="BMW 4 Series 2019"
+                  loading="lazy"
+                  width="440"
+                  height="300"
+                  class="w-100"
+                />
+              </figure>
+
+              <div class="card-content">
+                <div class="card-title-wrapper">
+                  <h3 class="h3 card-title">
+                    <a href="./brandsCards_Pages/Tesla.html">Tesla</a>
+                  </h3>
+                  <div class="card-price-wrapper">
+                    <!-- <p class="card-price"><strong>$490</strong> / month</p>
+
+                  <button
+                    class="btn fav-btn"
+                    aria-label="Add to favourite list"
+                  >
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button>
+
+                  <button class="btn">Rent now</button> -->
+                    <a href="./brandsCards_Pages/Tesla.html"><button class="btn">See Details</button></a>
+                  </div>
+                  <!-- <data class="year" value="2019">2019</data> -->
+                </div>
+
+                <ul class="card-list">
+                  <li class="card-list-item">
+                    <ion-icon name="people-outline"></ion-icon>
+
+                    <span class="card-item-text">4 People</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="flash-outline"></ion-icon>
+
+                    <span class="card-item-text">Gasoline</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="speedometer-outline"></ion-icon>
+
+                    <span class="card-item-text">7.2km / 1-litre</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                    <span class="card-item-text">Automatic</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="featured-car-card">
+              <figure class="card-banner">
+                <img
+                  src="./assets/images/nissan01.jpg"
+                  alt="BMW 4 Series 2019"
+                  loading="lazy"
+                  width="440"
+                  height="300"
+                  class="w-100"
+                />
+              </figure>
+
+              <div class="card-content">
+                <div class="card-title-wrapper">
+                  <h3 class="h3 card-title">
+                    <a href="./brandsCards_Pages/Nissan.html">Nissan</a>
+                  </h3>
+                  <div class="card-price-wrapper">
+                    <!-- <p class="card-price"><strong>$490</strong> / month</p>
+
+                  <button
+                    class="btn fav-btn"
+                    aria-label="Add to favourite list"
+                  >
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button>
+
+                  <button class="btn">Rent now</button> -->
+                    <a href="./brandsCards_Pages/Nissan.html"><button class="btn">See Details</button></a>
+                  </div>
+                  <!-- <data class="year" value="2019">2019</data> -->
+                </div>
+
+                <ul class="card-list">
+                  <li class="card-list-item">
+                    <ion-icon name="people-outline"></ion-icon>
+
+                    <span class="card-item-text">4 People</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="flash-outline"></ion-icon>
+
+                    <span class="card-item-text">Gasoline</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="speedometer-outline"></ion-icon>
+
+                    <span class="card-item-text">7.2km / 1-litre</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                    <span class="card-item-text">Automatic</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="featured-car-card">
+              <figure class="card-banner">
+                <img
+                  src="./assets/images/hyundai01.jpeg"
+                  alt="BMW 4 Series 2019"
+                  loading="lazy"
+                  width="440"
+                  height="300"
+                  class="w-100"
+                />
+              </figure>
+
+              <div class="card-content">
+                <div class="card-title-wrapper">
+                  <h3 class="h3 card-title">
+                    <a href="./brandsCards_Pages/Hyundai.html">Hyundai</a>
+                  </h3>
+                  <div class="card-price-wrapper">
+                    <!-- <p class="card-price"><strong>$490</strong> / month</p>
+
+                  <button
+                    class="btn fav-btn"
+                    aria-label="Add to favourite list"
+                  >
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button>
+
+                  <button class="btn">Rent now</button> -->
+                   <a href="./brandsCards_Pages/Hyundai.html"> <button class="btn">See Details</button></a>
+                  </div>
+                  <!-- <data class="year" value="2019">2019</data> -->
+                </div>
+
+                <ul class="card-list">
+                  <li class="card-list-item">
+                    <ion-icon name="people-outline"></ion-icon>
+
+                    <span class="card-item-text">4 People</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="flash-outline"></ion-icon>
+
+                    <span class="card-item-text">Gasoline</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="speedometer-outline"></ion-icon>
+
+                    <span class="card-item-text">7.2km / 1-litre</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                    <span class="card-item-text">Automatic</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="featured-car-card">
+              <figure class="card-banner">
+                <img
+                  src="./assets/images/landrover01.jpg"
+                  alt="BMW 4 Series 2019"
+                  loading="lazy"
+                  width="440"
+                  height="300"
+                  class="w-100"
+                />
+              </figure>
+
+              <div class="card-content">
+                <div class="card-title-wrapper">
+                  <h3 class="h3 card-title">
+                    <a href="./brandsCards_Pages/Landrover.html">Land Rover</a>
+                  </h3>
+                  <div class="card-price-wrapper">
+                    <!-- <p class="card-price"><strong>$490</strong> / month</p>
+
+                  <button
+                    class="btn fav-btn"
+                    aria-label="Add to favourite list"
+                  >
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button>
+
+                  <button class="btn">Rent now</button> -->
+                    <a href="./brandsCards_Pages/Landrover.html"><button class="btn">See Details</button></a>
+                  </div>
+                  <!-- <data class="year" value="2019">2019</data> -->
+                </div>
+
+                <ul class="card-list">
+                  <li class="card-list-item">
+                    <ion-icon name="people-outline"></ion-icon>
+
+                    <span class="card-item-text">4 People</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="flash-outline"></ion-icon>
+
+                    <span class="card-item-text">Gasoline</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="speedometer-outline"></ion-icon>
+
+                    <span class="card-item-text">7.2km / 1-litre</span>
+                  </li>
+
+                  <li class="card-list-item">
+                    <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                    <span class="card-item-text">Automatic</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+
+    <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <!-- <img src="./assets/images/logo.svg" alt="Ridex logo"> -->
+            <h1>Analytica</h1>
+          </a>
+
+          <p class="footer-text">
+            A HUNDRED ON THE DASH GET ME CLOSE TO GOD, WE DON'T PRAY FOR LOVE WE JUST PRAY FOR CARS
+          </p>
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Company</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Pricing plans</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Our blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contacts</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Support</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Help center</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Ask a question</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms & conditions</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Neighborhoods in Peshawar</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Kohat</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Islamabad</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Karachi</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Lahore</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Kashmir</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Sialkot</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Multan</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Gawadar</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-skype"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+
+      </div>
+
+    </div>
+  </footer>
+
+
+  </body>
+</html>
+
+
